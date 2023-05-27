@@ -1,2 +1,2 @@
-# readWe
-All information about us
+# myBook
+My resume, thinking and all
