@@ -14,7 +14,7 @@
     "dev:customer": "npm run env:client npm run docs:dev",
     "dev:interviewer": "npm run env:interviewer npm run docs:dev",
     "build": "rm -rf docs/.vitepress/dist && npm run docs:build",
-    "deploy": "pnpm i && npm run build && ./deploy.sh",
+    "deploy": "pnpm i && npm run build && chmod +x ./deploy.sh && ./deploy.sh",
     "docs:dev": "vitepress dev docs --host",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
