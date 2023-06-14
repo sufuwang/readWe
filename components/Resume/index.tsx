@@ -56,7 +56,7 @@ export default defineComponent({
 				<tr>
 					<td>技术栈</td>
 					<td align="left" colspan="3" class={styles.no_break}>
-						TypeScript、Vue、React、VitePress、Uniapp、Vite、Docker、CI/CD
+						TypeScript、Vue、React、VitePress、Uniapp、Vite、Docker、CI/CD、Nest
 					</td>
 				</tr>
 			</table>

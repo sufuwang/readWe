@@ -10,28 +10,24 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "dev": "npm run env:admin npm run docs:dev",
-    "dev:customer": "npm run env:client npm run docs:dev",
-    "dev:interviewer": "npm run env:interviewer npm run docs:dev",
+    "dev": "npm run docs:dev",
+    "dev:customer": "npm run docs:dev",
+    "dev:interviewer": "npm run docs:dev",
     "build": "rm -rf docs/.vitepress/dist && npm run docs:build",
     "deploy": "chmod +x ./deploy.sh && ./deploy.sh",
     "docs:dev": "vitepress dev docs --host",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
-    "env:customer": "cross-env role=customer",
-    "env:interviewer": "cross-env role=interviewer",
-    "env:admin": "cross-env role=admin"
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
     "@types/node": "latest",
     "@vitejs/plugin-vue-jsx": "latest",
-    "cross-env": "^7.0.3",
     "vite": "latest",
+    "vite-plugin-html": "^3.2.0",
     "vitepress": "latest",
     "vue": "latest"
   },
   "dependencies": {
-    "moment": "^2.29.4",
     "sass": "^1.62.1",
     "tdesign-vue-next": "^1.3.4"
   }

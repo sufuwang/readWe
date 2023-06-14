@@ -1,7 +1,8 @@
 import type { UserConfig } from "vite";
-import { defineConfig } from "vite";
 import { resolve } from "path";
 import vueJsx from "@vitejs/plugin-vue-jsx";
+import { createHtmlPlugin } from "vite-plugin-html";
+import Seo from "./seo";
 
 const config: UserConfig = {
 	resolve: {
@@ -12,7 +13,13 @@ const config: UserConfig = {
 			{ find: "@utils", replacement: resolve(__dirname, "../../utils") },
 		],
 	},
-	plugins: [vueJsx()],
+	plugins: [
+		vueJsx(),
+		createHtmlPlugin({
+			minify: true,
+			inject: { tags: Seo },
+		}),
+	],
 };
 
 export default config;
