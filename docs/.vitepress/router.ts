@@ -21,6 +21,15 @@ const sidebar: DefaultTheme.SidebarItem[] = [
 					},
 				],
 			},
+			{
+				text: "详细业务",
+				items: [
+					{
+						text: "简历相关",
+						link: "/detail/resume",
+					},
+				],
+			},
 		],
 	},
 ];
