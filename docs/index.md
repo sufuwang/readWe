@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 业务范围
-      link: /mine/capability
+      link: /detail/capability
     - theme: alt
       text: 联系我们
       link: /mine/contact
