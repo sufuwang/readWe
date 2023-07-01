@@ -88,5 +88,6 @@ export const Technology_cai: Data = {
 		"Electron",
 		"Webgl",
 	],
-	description: "10年 UI 设计经验，设计宣传物料、网站、小程序等方向",
+	description:
+		"6 年前端经验，擅长大数据可视化平台开发，高度重视开发效率和代码质量",
 };
