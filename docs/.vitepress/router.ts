@@ -12,8 +12,8 @@ const sidebar: DefaultTheme.SidebarItem[] = [
 						link: "/mine/resume",
 					},
 					{
-						text: "业务范围",
-						link: "/mine/capability",
+						text: "团队简介",
+						link: "/mine/team",
 					},
 					{
 						text: "联系我们",
@@ -22,8 +22,12 @@ const sidebar: DefaultTheme.SidebarItem[] = [
 				],
 			},
 			{
-				text: "详细业务",
+				text: "业务范围",
 				items: [
+					{
+						text: "概况",
+						link: "/detail/capability",
+					},
 					{
 						text: "简历相关",
 						link: "/detail/resume",

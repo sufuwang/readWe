@@ -2,7 +2,7 @@
 
 ## 基本信息
 
-<Resume />
+<Resume :data="SufuWang" />
 
 ## 工作经历
 
@@ -30,5 +30,5 @@
 - 技术相关：为方便 SDK 与前端同学联调，开发了一个本地调试工具，将 SDK 和 UI 作为子库引入，建立 Symbolic Link，两个库使用了不同的工具实现了 MonoRepo （Yarn、Pnpm），所以工具需要根据 Npm 工具的特性来实现 Symbolic Link
 
 <script setup>
-import Resume from '@comps/Resume';
+import Resume, { SufuWang } from '@comps/Resume';
 </script>

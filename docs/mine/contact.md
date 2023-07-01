@@ -2,6 +2,8 @@
 
 **如果想让我们为您提供服务，或者想加入我们，可以通过以下方式联系我们，我们会尽快和您取得联系**
 
+淘宝店铺: <a href="https://shop339792400.taobao.com/" target="_blank">点击跳转至淘宝店铺</a>
+<br />
 邮箱: <a href='https://mail.google.com' target="_blank">sufuwang0818@gmail.com</a>
 <br />
 联系电话: <a href='tel://151-9186-6031'>151-9186-6031</a>
