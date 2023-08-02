@@ -16,6 +16,10 @@ const sidebar: DefaultTheme.SidebarItem[] = [
 						link: "/mine/team",
 					},
 					{
+						text: "案例介绍",
+						link: "/mine/case",
+					},
+					{
 						text: "联系我们",
 						link: "/mine/contact",
 					},
